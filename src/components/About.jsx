@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <div className="about-me">
       <div className="about-me-text">
-        <h2>About Me</h2>
+        <h2 className="text">About Me</h2>
         <p>
           I am a frontend developer with X years of experience. Lorem ipsum
           dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -19,20 +19,29 @@ function AboutMe() {
       </div>
       <div className="about-skill">
         <div className="languages">
-          <h3>Languages</h3>
+          <h3 className="text">Languages</h3>
           <ul>
-            <li>HTML/CSS</li>
+            <li>Python</li>
             <li>JavaScript</li>
-            <li>ReactJS</li>
+            <li>Ruby</li>
+            <li>C</li>
+            <li>SQL</li>
           </ul>
         </div>
 
         <div className="frameworks">
-          <h3>Frameworks</h3>
+          <h3 className="text">Frameworks/Libraries</h3>
           <ul>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-            <li>ReactJS</li>
+            <li>Django</li>
+            <li>Reactjs</li>
+            <li>Redux</li>
+            <li>Reactjs Material UI</li>
+            <li>Nodejs/Express js</li>
+            <li>Ruby on rails</li>
+            <li>Django rest framework</li>
+            <li>jQuery/Ajax</li>
+            <li>Bootstrap</li>
+            <li>Wordpress</li>
           </ul>
         </div>
       </div>
