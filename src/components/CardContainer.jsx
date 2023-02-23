@@ -6,19 +6,24 @@ import calc from '../images/calculator.png';
 
 const CardContainer = () => {
   return (
-    <div className="card-container">
-      <Card
-        title={'Pokemon App'}
-        url={'https://pokemon-app-site.netlify.app/'}
-        github={'https://github.com/MayowaFunmi/pokemon-app-reactjs'}
-        image={pokeImage}
-      />
-      <Card
-        title={'Calculator App'}
-        url={'https://rainbow-gumption-002f24.netlify.app/'}
-        github={'https://github.com/MayowaFunmi/reactjs-calculator-project'}
-        image={calc}
-      />
+    <div>
+      <center>
+        <h2>My Projects</h2>
+      </center>
+      <div className="card-container">
+        <Card
+          title={'Pokemon App'}
+          url={'https://pokemon-app-site.netlify.app/'}
+          github={'https://github.com/MayowaFunmi/pokemon-app-reactjs'}
+          image={pokeImage}
+        />
+        <Card
+          title={'Calculator App'}
+          url={'https://rainbow-gumption-002f24.netlify.app/'}
+          github={'https://github.com/MayowaFunmi/reactjs-calculator-project'}
+          image={calc}
+        />
+      </div>
     </div>
   );
 };
