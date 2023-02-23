@@ -14,16 +14,27 @@ function AboutMe() {
           commodo consequat.
         </p>
       </div>
-      <div>
+      <div className="about-image">
         <img src={pic} alt="" className="about-me-image" />
       </div>
-      <div>
-        <h3>Skills</h3>
-        <ul>
-          <li>HTML/CSS</li>
-          <li>JavaScript</li>
-          <li>ReactJS</li>
-        </ul>
+      <div className="about-skill">
+        <div className="languages">
+          <h3>Languages</h3>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+          </ul>
+        </div>
+
+        <div className="frameworks">
+          <h3>Frameworks</h3>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
