@@ -1,5 +1,6 @@
 import './App.css';
 import AboutMe from './components/About';
+import CardContainer from './components/CardContainer';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navbar />
       <AboutMe />
+      <CardContainer />
     </div>
   );
 }
