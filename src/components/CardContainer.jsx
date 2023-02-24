@@ -19,35 +19,35 @@ const CardContainer = () => {
           url={'https://pokemon-app-site.netlify.app/'}
           github={'https://github.com/MayowaFunmi/pokemon-app-reactjs'}
           image={pokeImage}
-          text=""
+          text="A reactjs project that comsumes pokemon API urls to display all available pokemons and the data stats for each. Technologies used: Reactjs, Redux, React Material UI"
         />
         <Card
           title={'Calculator App'}
           url={'https://rainbow-gumption-002f24.netlify.app/'}
           github={'https://github.com/MayowaFunmi/reactjs-calculator-project'}
           image={calc}
-          text=""
+          text="A basic calculator app created using reactjs. Technology used: Reactjs, css"
         />
         <Card
           title={'Django Portfolio App'}
           url=""
           github={'https://github.com/MayowaFunmi/django-portfolio-app-v2'}
           image={django_portfolio}
-          text=""
+          text="Features include display of skills and services i render as a fullstack web developer, showcasing all my web projects with links to each, and other features such fully functional social media blog site and available for use by all users, a weather app, news app (web scraper) ... Technologies used: Python, django, beautifulSoup, HTML, CSS, Javascript, jQuery/Ajax"
         />
         <Card
           title={'Django CBT Exam Online'}
           url=""
           github={'https://github.com/MayowaFunmi/online-exam-hall'}
           image={cbt}
-          text=""
+          text="This web app is a fullstack app created using django. It's a platform where examinations can be set and students can write exams (suited for secondary schools). Technologies used: Python, django, HTML, CSS, Javascript, jQuery/Ajax"
         />
         <Card
           title={'Basecamp Project'}
           url=""
           github={'https://github.com/MayowaFunmi/Rails-Basecamp-Project'}
           image={ruby_basecamp}
-          text=""
+          text="his project is the first part of qwasar training exercise in fullstack development. It's to mirror the original basecamp website. Technology: Ruby, Ruby on Rails, css"
         />
       </div>
     </div>

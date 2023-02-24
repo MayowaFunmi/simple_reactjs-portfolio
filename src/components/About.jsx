@@ -11,11 +11,11 @@ function AboutMe() {
         <div className="about-me-text">
           <h2 className="text">Who am I?</h2>
           <p>
-            I am a frontend developer with X years of experience. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            I am a software/web developer with a good background in programming
+            and web development. I am skilled in both frontend and backend web
+            frameworks. I'm seeking a position with a dynamic company where i
+            can contribute my skills while also open to learning from more
+            experienced developers.
           </p>
         </div>
         <div className="about-image">

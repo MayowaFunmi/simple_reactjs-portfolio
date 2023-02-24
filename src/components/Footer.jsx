@@ -24,7 +24,7 @@ const Footer = () => {
           </Link>
         </Router>
       </div>
-      <p>&copy; 2023 My Company. All rights reserved.</p>
+      <p>&copy; 2023 Akinade Mayowa. All rights reserved.</p>
     </footer>
   );
 };
