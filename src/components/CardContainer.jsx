@@ -5,7 +5,9 @@ import pokeImage from '../images/pokemon.png';
 import calc from '../images/calculator.png';
 import cbt from '../images/cbt.png';
 import django_portfolio from '../images/django-portfolio.png';
+import portfolio from '../images/portfolio.png';
 import ruby_basecamp from '../images/ruby_basecamp.png';
+import yelp from '../images/yelp.png';
 
 const CardContainer = () => {
   return (
@@ -14,6 +16,13 @@ const CardContainer = () => {
         <h2>My Projects</h2>
       </center>
       <div className="card-container">
+        <Card
+          title={'React Portfolio App'}
+          url={'https://elegant-bubblegum-fed2f1.netlify.app/'}
+          github={'https://github.com/MayowaFunmi/simple_reactjs-portfolio'}
+          image={portfolio}
+          text="My Portfolio App created using Reactjs. It is simply meant to display my personal projects and links to each projects"
+        />
         <Card
           title={'Pokemon App'}
           url={'https://pokemon-app-site.netlify.app/'}
@@ -48,6 +57,13 @@ const CardContainer = () => {
           github={'https://github.com/MayowaFunmi/Rails-Basecamp-Project'}
           image={ruby_basecamp}
           text="his project is the first part of qwasar training exercise in fullstack development. It's to mirror the original basecamp website. Technology: Ruby, Ruby on Rails, css"
+        />
+        <Card
+          title={'My Yelp App'}
+          url={'https://thriving-medovik-67a05c.netlify.app/login'}
+          github={'https://github.com/MayowaFunmi/my_yelp_app'}
+          image={yelp}
+          text="his project incorporates AWS Amplify into Reactjs application. It's to simply mirror the original yelp app where restaurants can be registered and displayed with location for potential customers. Technology: Reactjs and css for the frontend, AWS Amplify for backend and authentication"
         />
       </div>
     </div>

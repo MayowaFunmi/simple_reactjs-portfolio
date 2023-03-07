@@ -23,13 +23,17 @@ function AboutMe() {
         </div>
         <div className="about-skill">
           <div className="languages">
-            <h3 className="text">Languages</h3>
+            <h3 className="text">
+              Languages <br /> & <br /> Databases
+            </h3>
             <ul>
               <li>Python</li>
               <li>JavaScript</li>
               <li>Ruby</li>
               <li>C</li>
               <li>SQL</li>
+              <li>PostgresQL</li>
+              <li>MongoDB</li>
             </ul>
           </div>
 
