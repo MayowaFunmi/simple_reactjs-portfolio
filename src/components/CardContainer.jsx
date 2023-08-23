@@ -8,6 +8,7 @@ import django_portfolio from '../images/django-portfolio.png';
 import portfolio from '../images/portfolio.png';
 import ruby_basecamp from '../images/ruby_basecamp.png';
 import yelp from '../images/yelp.png';
+import weConnect from '../images/we_connect_api.png';
 
 const CardContainer = () => {
   return (
@@ -16,6 +17,15 @@ const CardContainer = () => {
         <h2>My Projects</h2>
       </center>
       <div className="card-container">
+      <Card
+          title={'WeConnectAPI APP'}
+          url=""
+          github={'https://github.com/MayowaFunmi/WeConnectAPI'}
+          image={weConnect}
+          text="A marketplace app being built specifically to connect certain subject teachers/tutors to potential students. Also sellers/service providers can connect with potential buyers/customers of their products on the app.
+            Tech stack: .NET API (using MediatR CQRS architecture) for backend and Reactjs frontend
+          "
+        />
         <Card
           title={'React Portfolio App'}
           url={'https://elegant-bubblegum-fed2f1.netlify.app/'}
