@@ -27,12 +27,13 @@ function AboutMe() {
               Languages <br /> & <br /> Databases
             </h3>
             <ul>
+              <li>C#</li>
               <li>Python</li>
               <li>JavaScript</li>
               <li>Ruby</li>
               <li>C</li>
-              <li>SQL</li>
-              <li>PostgresQL</li>
+              <li>SQL/MSSQL</li>
+              <li>PostgreSQL</li>
               <li>MongoDB</li>
             </ul>
           </div>
@@ -40,6 +41,7 @@ function AboutMe() {
           <div className="frameworks">
             <h3 className="text">Frameworks/Libraries</h3>
             <ul>
+              <li>.NET / EntityFramework</li>
               <li>Django</li>
               <li>Reactjs</li>
               <li>Redux</li>
