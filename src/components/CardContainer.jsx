@@ -9,6 +9,7 @@ import portfolio from '../images/portfolio.png';
 import ruby_basecamp from '../images/ruby_basecamp.png';
 import yelp from '../images/yelp.png';
 import weConnect from '../images/we_connect_api.png';
+import school_app from '../images/school-project.png';
 
 const CardContainer = () => {
   return (
@@ -17,6 +18,15 @@ const CardContainer = () => {
         <h2>My Projects</h2>
       </center>
       <div className="card-container">
+      <Card
+          title={'School Management App'}
+          url=""
+          github={'https://github.com/MayowaFunmi/school-management-project'}
+          image={school_app}
+          text="A web app for management of staffs, students and academic records and information in schools
+            Tech stack: C#, .NET Entity Framework, Reactjs, Typescript, Postgresl
+          "
+        />
       <Card
           title={'WeConnectAPI APP'}
           url=""
@@ -66,14 +76,14 @@ const CardContainer = () => {
           url=""
           github={'https://github.com/MayowaFunmi/Rails-Basecamp-Project'}
           image={ruby_basecamp}
-          text="his project is the first part of qwasar training exercise in fullstack development. It's to mirror the original basecamp website. Technology: Ruby, Ruby on Rails, css"
+          text="This project is the first part of qwasar training exercise in fullstack development. It's to mirror the original basecamp website. Technology: Ruby, Ruby on Rails, css"
         />
         <Card
           title={'My Yelp App'}
           url={'https://thriving-medovik-67a05c.netlify.app/login'}
           github={'https://github.com/MayowaFunmi/my_yelp_app'}
           image={yelp}
-          text="his project incorporates AWS Amplify into Reactjs application. It's to simply mirror the original yelp app where restaurants can be registered and displayed with location for potential customers. Technology: Reactjs and css for the frontend, AWS Amplify for backend and authentication"
+          text="This project incorporates AWS Amplify into Reactjs application. It's to simply mirror the original yelp app where restaurants can be registered and displayed with location for potential customers. Technology: Reactjs and css for the frontend, AWS Amplify for backend and authentication"
         />
       </div>
     </div>

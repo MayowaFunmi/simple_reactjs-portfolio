@@ -30,6 +30,7 @@ function AboutMe() {
               <li>C#</li>
               <li>Python</li>
               <li>JavaScript</li>
+              <li>TypeScript</li>
               <li>Ruby</li>
               <li>C</li>
               <li>SQL/MSSQL</li>

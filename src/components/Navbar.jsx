@@ -2,7 +2,7 @@ import React from 'react';
 //import { Link } from 'react-router-dom';
 import './Navbar.css';
 import SlidingText from './SlidingText';
-import MyCV from './Mayowa_cv.pdf';
+import MyCV from './MayowaResume.pdf';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 const Navbar = () => {
   return (
